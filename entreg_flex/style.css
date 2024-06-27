@@ -9,6 +9,9 @@ body{
     
     background-color: black;
     color: white;
+    background-image: url(./img/Diseño\ sin\ título\ \(40\).png);
+    background-repeat:repeat-y;
+    background-size: contain;
 
 }
 
@@ -26,20 +29,21 @@ main{
 }
 
 header{
-    background-image: url(./img/Diseño\ sin\ título\ \(39\).png);
-    background-repeat:no-repeat;
-    background-size: cover;
+    
     display: flex;
 padding: 50px;
     align-items: center;
+    
 }
 header > nav{
     flex-grow: 1;
+    
     
 }
 nav > ul{
     
     display: flex;
+    width: 40%;
     list-style: none;
     justify-content: space-around;
     background-color: brown;
